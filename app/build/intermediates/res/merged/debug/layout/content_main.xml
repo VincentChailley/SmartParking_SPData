@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.smartparkingdata.vincent.spdat.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textinfo"
+        android:padding="10dp"
+        android:text="Bonjour et bienvenue dans la partie Big Data de notre application. En permanente évolution, merci de nous reporter les bugs auxquels vous êtes confrontés au moindre problème. Notre équipe essayera de fixer le problème le plus rapidement possible."
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnGet"
+        android:text="récuperer les données"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Récuperer autres données"
+        android:id="@+id/btnGet2"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent" />
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+
+        <TextView
+            android:id="@+id/tvJsonItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Appuyez sur le bouton" />
+
+    </ScrollView>
+
+</LinearLayout>
