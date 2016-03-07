@@ -42,7 +42,14 @@ public class MainActivity extends AppCompatActivity {
         btnGet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest1.json");
+                for(int i=0; i<=5; i++) {
+                    if(i==0){
+                        new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest" + i +".json");
+                    }
+                    if (i == 5){
+                        i = 0;
+                    }
+                }
             }
         });
 
