@@ -27,6 +27,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvData;
+    public int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,14 +43,31 @@ public class MainActivity extends AppCompatActivity {
         btnGet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                for(int i=0; i<=5; i++) {
-                    if(i==0){
-                        new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest" + i +".json");
-                    }
-                    if (i == 5){
-                        i = 0;
-                    }
+                if(i==5) {
+                    new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest1.json");
+                    i=0;
                 }
+                if(i==4) {
+                    new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest2.json");
+                    i++;
+                }
+                if(i==3) {
+                    new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest1.json");
+                    i++;
+                }
+                if(i==2) {
+                    new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest2.json");
+                    i++;
+                }
+                if(i==1) {
+                    new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest1.json");
+                    i++;
+                }
+                if(i==0) {
+                    new JSONTask().execute("http://aureliemarcuard.com/sp/Jsontest1.json");
+                    i++;
+                }
+
             }
         });
 
