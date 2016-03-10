@@ -19,14 +19,14 @@ public class MapsActivity extends Activity implements OnMapReadyCallback {
 
     @Override
     public void onMapReady(GoogleMap map) {
-        LatLng sydney = new LatLng(-33.867, 151.206);
+        LatLng ESIEA = new LatLng(48.838111, 2.352913);
 
         map.setMyLocationEnabled(true);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ESIEA, 13));
 
         map.addMarker(new MarkerOptions()
-                .title("Sydney")
-                .snippet("The most populous city in Australia.")
-                .position(sydney));
+                .title("ESIEA")
+//                .snippet("The most populous city in Australia.")
+                .position(ESIEA));
     }
 }
