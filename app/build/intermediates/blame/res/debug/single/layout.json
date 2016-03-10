@@ -88,6 +88,10 @@
         "source": "/Users/vincent/AndroidStudioProjects/SPDat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/Users/vincent/AndroidStudioProjects/SPDat/app/build/intermediates/res/merged/debug/layout/activity_maps.xml",
+        "source": "/Users/vincent/AndroidStudioProjects/SPDat/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
         "merged": "/Users/vincent/AndroidStudioProjects/SPDat/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/vincent/AndroidStudioProjects/SPDat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
     },
