@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/btnGet"
-        android:text="récuperer les données"
+        android:text="Afficher les données"
         android:textColor="@color/white"
         android:background="@color/colorAccent"/>
 
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Récuperer autres données"
+        android:text="Récuperer les données"
         android:id="@+id/btnGet2"
         android:textColor="@color/white"
         android:background="@color/colorAccent" />
@@ -49,11 +49,10 @@
 
 
         <TextView
-            android:id="@+id/tvJsonItem"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="Appuyez sur le bouton" />
+            android:layout_height="match_parent"
+            android:id="@+id/tvJsonItem"
+            />
 
     </ScrollView>
 
