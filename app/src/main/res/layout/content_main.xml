@@ -9,6 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="@drawable/fonddata"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.smartparkingdata.vincent.spdat.MainActivity"
     tools:showIn="@layout/activity_main">
@@ -19,7 +20,6 @@
         android:id="@+id/textinfo"
         android:padding="10dp"
         android:text="Bonjour et bienvenue dans la partie Big Data de notre application. En permanente évolution, merci de nous reporter les bugs auxquels vous êtes confrontés au moindre problème. Notre équipe essayera de fixer le problème le plus rapidement possible."
-        android:background="@color/colorPrimary"
         android:textColor="@color/white"
         />
 
@@ -52,6 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/tvJsonItem"
+            android:textColor="@color/white"
             />
 
     </ScrollView>

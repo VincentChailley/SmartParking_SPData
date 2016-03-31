@@ -174,11 +174,12 @@ public class MainActivity extends AppCompatActivity {
                     modeles.getLongitude_obj();
                     String latitude = (String) finalObject.get("latitude");
                     modeles.getLatitude_obj();
-                    finalBufferedData.append(rue + " : " + estimation + longitude + ":" + latitude + "\n");
+                    finalBufferedData.append(rue + " : " + estimation + " - " + longitude + ":" + latitude + "\n");
                 }
 
                 return finalBufferedData.toString();
                 //return buffer.toString();
+
 
             } catch (MalformedURLException e) {
                 e.printStackTrace();

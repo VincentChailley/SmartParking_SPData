@@ -2,5 +2,9 @@
     {
         "merged": "/Users/vincent/AndroidStudioProjects/SPDat/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
         "source": "/Users/vincent/AndroidStudioProjects/SPDat/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/vincent/AndroidStudioProjects/SPDONNEES/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/vincent/AndroidStudioProjects/SPDONNEES/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

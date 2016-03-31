@@ -2585,13 +2585,14 @@ containing a value of this type.
         public static final int datas=0x7f020060;
         public static final int design_fab_background=0x7f020061;
         public static final int design_snackbar_background=0x7f020062;
-        public static final int ic_plusone_medium_off_client=0x7f020063;
-        public static final int ic_plusone_small_off_client=0x7f020064;
-        public static final int ic_plusone_standard_off_client=0x7f020065;
-        public static final int ic_plusone_tall_off_client=0x7f020066;
-        public static final int notification_template_icon_bg=0x7f020069;
-        public static final int powered_by_google_dark=0x7f020067;
-        public static final int powered_by_google_light=0x7f020068;
+        public static final int fonddata=0x7f020063;
+        public static final int ic_plusone_medium_off_client=0x7f020064;
+        public static final int ic_plusone_small_off_client=0x7f020065;
+        public static final int ic_plusone_standard_off_client=0x7f020066;
+        public static final int ic_plusone_tall_off_client=0x7f020067;
+        public static final int notification_template_icon_bg=0x7f02006a;
+        public static final int powered_by_google_dark=0x7f020068;
+        public static final int powered_by_google_light=0x7f020069;
     }
     public static final class id {
         public static final int action0=0x7f0d008b;

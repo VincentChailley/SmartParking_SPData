@@ -22,7 +22,8 @@ public class MapsActivity extends Activity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap map) {
 
         LatLng ESIEA = new LatLng(48.838111, 2.352913);
-
+        LatLng Scipion = new LatLng(48.838168, 2.354004);
+        LatLng Vesale = new LatLng(48.837942, 2.352454);
         map.setMyLocationEnabled(true);
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(ESIEA, 13));
 
@@ -30,6 +31,15 @@ public class MapsActivity extends Activity implements OnMapReadyCallback {
                 .title("ESIEA")
 //                .snippet("The most populous city in Australia.")
                 .position(ESIEA));
+        map.addMarker(new MarkerOptions()
+                .title("Rue Scipion")
+                .snippet("estimation = 95%")
+                .position(Scipion));
+        map.addMarker(new MarkerOptions()
+                .title("Rue Vésale")
+                .snippet("estimation = 96%")
+                .position(Vesale));
+
         //Appel de la classe Modeles pour récupérer les données des points et afficher un nouveau marker sur la Map
         /*
         Modeles point = new Modeles();
